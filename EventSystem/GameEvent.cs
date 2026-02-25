@@ -17,6 +17,11 @@ namespace _Scripts.SOAP.EventSystem
 
         public void RegisterListener(IGameEventListener<T> listener) => listeners.Add(listener);
         public void DeregisterListener(IGameEventListener<T> listener) => listeners.Remove(listener);
+        
+#if UNITY_EDITOR
+        internal void RaiseDefault() => Raise(default);
+        internal IReadOnlyList<IGameEventListener<T>> Listeners => listeners;
+#endif
     }
 
     [CreateAssetMenu(fileName = "GameEvent", menuName = "Events/Game Event")]
