@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace _Scripts.SOAP.EventSystem
+namespace SOAP.EventSystem
 {
     public interface IGameEventListener<T>
     {

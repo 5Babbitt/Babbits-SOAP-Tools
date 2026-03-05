@@ -4,7 +4,7 @@ using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
-namespace _Scripts.SOAP.EventSystem.Editor
+namespace SOAP.EventSystem.Editor
 {
     [CustomEditor(typeof(GameEvent<>), true)]
     public class GameEventEditor : UnityEditor.Editor

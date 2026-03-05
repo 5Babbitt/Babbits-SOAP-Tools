@@ -1,4 +1,4 @@
-namespace _Scripts.SOAP.EventSystem.Listeners
+namespace SOAP.EventSystem.Listeners
 {
     public class BoolEventListener : GameEventListener<bool> { }
 }

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace _Scripts.SOAP.Variables
+namespace SOAP.Variables
 {
     [CreateAssetMenu(fileName = "IntVariable", menuName = "Variables/IntVariable")]
     public class IntVariable : ScriptableVariable<int>

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace _Scripts.SOAP.EventSystem
+namespace SOAP.EventSystem
 {
     public class GameEvent<T> : ScriptableObject
     {

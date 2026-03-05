@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace _Scripts.SOAP
+namespace SOAP
 {
     public abstract class RuntimeScriptableObject : ScriptableObject
     {

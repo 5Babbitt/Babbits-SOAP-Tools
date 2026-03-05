@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace _Scripts.SOAP.EventSystem.Events
+namespace SOAP.EventSystem.Events
 {
     [System.Serializable]
     public class FlexibleEvent

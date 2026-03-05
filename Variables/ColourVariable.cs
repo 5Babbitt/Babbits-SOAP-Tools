@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace _Scripts.SOAP.Variables
+namespace SOAP.Variables
 {
     [CreateAssetMenu(fileName = "ColourVariable", menuName = "Variables/ColourVariable")]
     public class ColourVariable : ScriptableVariable<Color>

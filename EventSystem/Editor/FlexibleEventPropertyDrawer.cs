@@ -2,9 +2,9 @@ using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
-using _Scripts.SOAP.EventSystem.Events;
+using SOAP.EventSystem.Events;
 
-namespace _Scripts.SOAP.EventSystem.Editor
+namespace SOAP.EventSystem.Editor
 {
     [CustomPropertyDrawer(typeof(FlexibleEvent))]
     public class FlexibleEventPropertyDrawer : PropertyDrawer

@@ -1,10 +1,10 @@
 using System;
-using _Scripts.SOAP.Variables;
+using SOAP.Variables;
 using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine.UIElements;
 
-namespace _Scripts.SOAP.Editor
+namespace SOAP.Editor
 {
     public abstract class GenericVariableDrawer<TVariable, TValue, TField> : PropertyDrawer 
         where TVariable : ScriptableVariable<TValue> 

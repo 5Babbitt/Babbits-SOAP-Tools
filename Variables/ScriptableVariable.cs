@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace _Scripts.SOAP.Variables
+namespace SOAP.Variables
 {
     public abstract class ScriptableVariable<T> : RuntimeScriptableObject
     {

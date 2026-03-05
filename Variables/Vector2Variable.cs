@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace _Scripts.SOAP.Variables
+namespace SOAP.Variables
 {
     [CreateAssetMenu(fileName = "Vector2Variable", menuName = "Variables/Vector2Variable")]
     public class Vector2Variable : ScriptableVariable<Vector2>

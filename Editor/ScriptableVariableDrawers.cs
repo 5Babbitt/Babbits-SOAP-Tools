@@ -3,7 +3,7 @@ using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace _Scripts.SOAP.Editor
+namespace SOAP.Editor
 {
     // Primitive Types
     [CustomPropertyDrawer(typeof(Variables.FloatVariable))]

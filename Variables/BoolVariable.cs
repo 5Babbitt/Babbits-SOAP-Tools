@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace _Scripts.SOAP.Variables
+namespace SOAP.Variables
 {
     [CreateAssetMenu(fileName = "BoolVariable", menuName = "Variables/BoolVariable")]
     public class BoolVariable : ScriptableVariable<bool>
