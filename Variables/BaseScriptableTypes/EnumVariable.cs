@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace SOAP.Variables
 {
-    public class EnumVariable<T> : ScriptableVariable<T> where T : Enum
+    public abstract class EnumVariable<T> : ScriptableVariable<T> where T : Enum
     {
         protected override bool EqualityComparer(T a, T b)
         {
